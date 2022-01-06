@@ -2,6 +2,7 @@ public class TestReferencias {
     public static void main(String[] args) {
         ControleBonificacao controle = new ControleBonificacao();
 
+
         Funcionario gerente = new Gerente("Luis Felipe","11111111",5000);
         controle.registrar(gerente);
 
