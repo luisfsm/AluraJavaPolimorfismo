@@ -1,10 +1,6 @@
 public class Gerente extends Funcionario{
     private int senha;
 
-    public void setSenha(int senha) {
-        this.senha = senha;
-    }
-
     public Gerente(){
 
     }
@@ -20,9 +16,12 @@ public class Gerente extends Funcionario{
             return false;
         }
     }
+    public void setSenha(int senha) {
+        this.senha = senha;
+    }
 
     @Override
     public double getBonificacao(){
-        return this.getSalario();
+        return super.getBonificacao()+super.getSalario();
     }
 }
