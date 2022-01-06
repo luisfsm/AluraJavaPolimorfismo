@@ -6,7 +6,7 @@ public class TestReferencias {
         Funcionario gerente = new Gerente("Luis Felipe","11111111",5000);
         controle.registrar(gerente);
 
-        Funcionario funcionario = new Funcionario("Luis Felipe","11111111",1000);
+        Funcionario funcionario = new Designer("Luis Felipe","11111111",1000);
         controle.registrar(funcionario);
 
         Funcionario editorDeVideo = new EditorDeVideo("Luis Felipe","11111111",2000);
