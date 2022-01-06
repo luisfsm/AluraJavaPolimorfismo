@@ -1,9 +1,7 @@
-public class Gerente extends Funcionario{
+public class Gerente extends Funcionario implements IAutenticavel{
     private int senha;
 
-    public Gerente(){
-
-    }
+   
 
     public Gerente(String nome, String cpf, double salario){
         super(nome,cpf,salario);
